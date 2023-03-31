@@ -33,6 +33,7 @@ const Input = styled.input.attrs({
 
 export const Search = () => {
   const [search, handleSearch] = useSearch();
+
   return (
     <InputContainer>
       <IoSearch />

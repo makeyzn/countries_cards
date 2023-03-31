@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import styled from 'styled-components';
 
 import { Container } from './Container';
 import { ThemeSwitcher } from '../features/theme/ThemeSwitcher';
