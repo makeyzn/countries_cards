@@ -14,6 +14,6 @@ export const useDetails = (name) => {
       dispatch(clearDetails());
     };
   }, [name, dispatch]);
+  
+    return details;
 };
-
-return details;
